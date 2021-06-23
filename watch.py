@@ -15,7 +15,7 @@ dotenv.load_dotenv()
 urls_to_watch = ["https://google.com", "https://github.com"]
 
 # How much time to sleep
-sleep_for = 5
+sleep_for = 15
 
 
 def send_notification(token, id, msg) -> bool:
